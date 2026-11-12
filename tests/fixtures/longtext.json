@@ -1,0 +1,9 @@
+{
+  "_note": "NOT MEASURED: handwritten, shape per Weibo-archiver packages/core/src/types/raw/statuses/longtext.ts (longTextContent, topic_struct, url_struct) wrapped as {ok, data}.",
+  "ok": 1,
+  "data": {
+    "longTextContent": "长文的前一段，后一段<br />第二段 <a href=\"http://t.cn/A6exampleC\">网页链接</a>",
+    "topic_struct": [],
+    "url_struct": [{"short_url": "http://t.cn/A6exampleC", "long_url": "https://example.invalid/from-longtext"}]
+  }
+}

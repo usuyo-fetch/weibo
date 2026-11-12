@@ -1,0 +1,25 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of the ajax/statuses/show answer as read from Chilfish/Weibo-archiver packages/core/src/types/raw/statuses/mymblog.ts (field names), yt-dlp weibo.py (bare object, page_info.media_info, mix_media_info) and ParseHub weibo.py (pic_infos, playback_list, livephoto video); no real answer was captured.",
+  "ok": 1,
+  "mid": "4900000000000004",
+  "mblogid": "N00000004",
+  "created_at": "Sun Nov 02 09:00:00 +0800 2025",
+  "user": {"id": 1700000004, "idstr": "1700000004", "screen_name": "示例博主丁"},
+  "text": "转发理由<br />第二行",
+  "isLongText": false,
+  "pic_ids": [],
+  "retweeted_status": {
+    "mid": "4900000000000104",
+    "mblogid": "N0000001G",
+    "created_at": "Sat Nov 01 08:00:00 +0800 2025",
+    "user": {"id": 1700000104, "idstr": "1700000104", "screen_name": "示例原作者"},
+    "text": "原微博的字<br />带 <a href=\"http://t.cn/A6exampleA\">网页链接</a>",
+    "isLongText": false,
+    "reposts_count": 1,
+    "comments_count": 0,
+    "attitudes_count": 9,
+    "pic_ids": ["pica0001"],
+    "pic_infos": {"pica0001": {"pic_id": "pica0001", "type": "pic", "largest": {"url": "__BASE__/img/q.jpg", "width": 300, "height": 300}}},
+    "url_struct": [{"short_url": "http://t.cn/A6exampleA", "long_url": "https://example.invalid/original"}]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of the ajax/statuses/show answer as read from Chilfish/Weibo-archiver packages/core/src/types/raw/statuses/mymblog.ts (field names), yt-dlp weibo.py (bare object, page_info.media_info, mix_media_info) and ParseHub weibo.py (pic_infos, playback_list, livephoto video); no real answer was captured.",
+  "ok": 1,
+  "mid": "4900000000000006",
+  "mblogid": "N00000006",
+  "created_at": "Mon Nov 03 10:00:00 +0800 2025",
+  "user": {"id": 1700000006, "idstr": "1700000006", "screen_name": "示例博主己"},
+  "text": "长文的前一段…<a href=\"/status/N00000006\">全文</a>",
+  "isLongText": true,
+  "pic_ids": []
+}

@@ -1,0 +1,22 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of the ajax/statuses/show answer as read from Chilfish/Weibo-archiver packages/core/src/types/raw/statuses/mymblog.ts (field names), yt-dlp weibo.py (bare object, page_info.media_info, mix_media_info) and ParseHub weibo.py (pic_infos, playback_list, livephoto video); no real answer was captured.",
+  "ok": 1,
+  "id": 4900000000000001,
+  "idstr": "4900000000000001",
+  "mid": "4900000000000001",
+  "mblogid": "N00000001",
+  "created_at": "Thu Oct 30 21:00:00 +0800 2025",
+  "user": {"id": 1700000001, "idstr": "1700000001", "screen_name": "示例博主甲", "profile_url": "/u/1700000001"},
+  "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+  "region_name": "发布于 示例",
+  "isLongText": false,
+  "reposts_count": 2,
+  "comments_count": 3,
+  "attitudes_count": 5,
+  "pic_ids": [],
+  "pic_num": 0,
+  "text": "示例微博 &amp; 第一行<br />第二行 <a href=\"https://weibo.com/n/某人\">@某人</a> <a href=\"https://s.weibo.com/weibo?q=%23示例话题%23\">#示例话题#</a> <a href=\"http://t.cn/A6exampleA\"><span class=\"url-icon\"><img alt=\"[doge]\" src=\"https://example.invalid/e.png\"></span><span class=\"surl-text\">网页链接</span></a>",
+  "text_raw": "示例微博 & 第一行\n第二行 @某人 #示例话题# http://t.cn/A6exampleA",
+  "topic_struct": [{"topic_title": "#示例话题#", "topic_url": "sinaweibo://x"}],
+  "url_struct": [{"short_url": "http://t.cn/A6exampleA", "long_url": "https://example.invalid/long/page?a=1&b=2", "url_title": "网页链接"}]
+}

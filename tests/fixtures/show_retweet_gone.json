@@ -1,0 +1,12 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of the ajax/statuses/show answer as read from Chilfish/Weibo-archiver packages/core/src/types/raw/statuses/mymblog.ts (field names), yt-dlp weibo.py (bare object, page_info.media_info, mix_media_info) and ParseHub weibo.py (pic_infos, playback_list, livephoto video); no real answer was captured.; the deleted original follows the userscript fixtures (deleted: \"1\", fixed sentence as text).",
+  "ok": 1,
+  "mid": "4900000000000005",
+  "mblogid": "N00000005",
+  "created_at": "Sun Nov 02 10:00:00 +0800 2025",
+  "user": {"id": 1700000005, "idstr": "1700000005", "screen_name": "示例博主戊"},
+  "text": "转发微博",
+  "isLongText": false,
+  "pic_ids": [],
+  "retweeted_status": {"id": 4900000000000105, "idstr": "4900000000000105", "deleted": "1", "text": "此微博已被删除。查看帮助：http://t.cn/A6exampleB"}
+}

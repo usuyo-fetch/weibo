@@ -1,0 +1,27 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of the ajax/statuses/show answer as read from Chilfish/Weibo-archiver packages/core/src/types/raw/statuses/mymblog.ts (field names), yt-dlp weibo.py (bare object, page_info.media_info, mix_media_info) and ParseHub weibo.py (pic_infos, playback_list, livephoto video); no real answer was captured.",
+  "ok": 1,
+  "mid": "4900000000000003",
+  "mblogid": "N00000003",
+  "created_at": "Sat Nov 01 12:00:00 +0800 2025",
+  "user": {"id": 1700000003, "idstr": "1700000003", "screen_name": "示例博主丙"},
+  "text": "一段视频",
+  "isLongText": false,
+  "pic_ids": [],
+  "page_info": {
+    "type": "video",
+    "object_type": "video",
+    "page_pic": "__BASE__/img/cover.jpg",
+    "page_title": "示例视频",
+    "media_info": {
+      "duration": 12.5,
+      "mp4_sd_url": "__BASE__/vid/sd.mp4",
+      "mp4_hd_url": "__BASE__/vid/hd.mp4",
+      "stream_url": "__BASE__/vid/low.mp4",
+      "playback_list": [
+        {"play_info": {"url": "__BASE__/vid/p480.mp4", "mime": "video/mp4", "width": 270, "height": 480, "bitrate": 800}},
+        {"play_info": {"url": "__BASE__/vid/p720.mp4", "mime": "video/mp4", "width": 406, "height": 720, "bitrate": 1500}}
+      ]
+    }
+  }
+}

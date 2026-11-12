@@ -1,0 +1,15 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of the ajax/statuses/show answer as read from Chilfish/Weibo-archiver packages/core/src/types/raw/statuses/mymblog.ts (field names), yt-dlp weibo.py (bare object, page_info.media_info, mix_media_info) and ParseHub weibo.py (pic_infos, playback_list, livephoto video); no real answer was captured.; mix_media_info items follow yt-dlp _entries (type, data.media_info) and ParseHub (type pic with PicInfo data).",
+  "ok": 1,
+  "mid": "4900000000000007",
+  "mblogid": "N00000007",
+  "created_at": "Tue Nov 04 10:00:00 +0800 2025",
+  "user": {"id": 1700000007, "idstr": "1700000007", "screen_name": "示例博主庚"},
+  "text": "图文视频混排",
+  "isLongText": false,
+  "pic_ids": [],
+  "mix_media_info": {"items": [
+    {"id": "pica0001", "type": "pic", "data": {"pic_id": "pica0001", "type": "pic", "largest": {"url": "__BASE__/img/a.jpg", "width": 100, "height": 100}}},
+    {"id": "vid1", "type": "video", "data": {"object_id": "1034:1", "media_info": {"duration": 3, "mp4_hd_url": "__BASE__/vid/mix.mp4"}}}
+  ]}
+}
