@@ -238,7 +238,7 @@ async fn the_manifest_loads_and_declares_every_row_of_routes_section_9() {
     assert_eq!(plugin.header.version.to_string(), env!("CARGO_PKG_VERSION"));
     let spec = &plugin.spec;
     let ids: Vec<&str> = spec.methods.iter().map(|m| m.id.as_str()).collect();
-    assert_eq!(ids, ["status", "userscript", "favorites"]);
+    assert_eq!(ids, ["status", "userscript", "favorites", "mediacrawler"]);
 
     let status = spec.method("status").unwrap();
     assert_eq!(

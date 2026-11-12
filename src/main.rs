@@ -5,7 +5,7 @@ use std::process::ExitCode;
 use anyhow::Context;
 use serde::Serialize;
 use usuyo_fetch_weibo::api::{Endpoints, Weibo};
-use usuyo_fetch_weibo::{canonical, status};
+use usuyo_fetch_weibo::{canonical, mediacrawler, status};
 use usuyo_plugin_kit::fetch::{Call, USAGE};
 use usuyo_plugin_kit::protocol::{CallFailure, Envelope, ErrorCode, FetchHealth};
 
@@ -35,6 +35,9 @@ fn run(args: &[String]) -> anyhow::Result<u8> {
                 input, out, want, ..
             },
         ) => emit(fetch_status(&input, &out, want.as_deref())),
+        (Some("mediacrawler"), Call::List { source, cursor, .. }) => {
+            emit(mediacrawler::list_call(&source, cursor.as_deref()))
+        }
         // 没有要查的本机程序，也不向平台发请求；访客身份由宿主看着
         (_, Call::Health { .. }) => emit(Ok(FetchHealth::new(env!("CARGO_PKG_VERSION")))),
         (method, _) => emit::<()>(Err(CallFailure::new(
