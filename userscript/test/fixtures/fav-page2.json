@@ -1,0 +1,73 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of Chilfish/Weibo-archiver packages/core/src/types/raw/favorites/all_fav.ts (ok, data.status[], data.total_number); no account answer was captured.",
+  "ok": 1,
+  "data": {
+    "status": [
+      {
+        "visible": {
+          "type": 0,
+          "list_id": 0
+        },
+        "created_at": "Fri Oct 31 08:30:15 +0800 2025",
+        "id": 4900000000000002,
+        "idstr": "4900000000000002",
+        "mid": "4900000000000002",
+        "mblogid": "Qa1Bb2Cc4",
+        "user": {
+          "id": 1700000002,
+          "idstr": "1700000002",
+          "pc_new": 7,
+          "screen_name": "示例博主乙",
+          "profile_image_url": "https://example.invalid/avatar.jpg",
+          "verified": false,
+          "following": false
+        },
+        "can_edit": false,
+        "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+        "favorited": true,
+        "pic_ids": [],
+        "pic_num": 0,
+        "attitudes_count": 3,
+        "comments_count": 1,
+        "reposts_count": 0,
+        "isLongText": false,
+        "text": "<span class=\"surl-text\">#示例话题#</span> 示例微博 2 &amp; 更多",
+        "text_raw": "#示例话题# 示例微博 2 & 更多",
+        "region_name": "发布于 示例"
+      },
+      {
+        "visible": {
+          "type": 0,
+          "list_id": 0
+        },
+        "created_at": "Sat Nov 01 23:59:59 -0500 2025",
+        "id": 4900000000000006,
+        "idstr": "4900000000000006",
+        "mid": "4900000000000006",
+        "mblogid": "Qa1Bb2Cc6",
+        "user": {
+          "id": 1700000006,
+          "idstr": "1700000006",
+          "pc_new": 7,
+          "screen_name": "示例博主己",
+          "profile_image_url": "https://example.invalid/avatar.jpg",
+          "verified": false,
+          "following": false
+        },
+        "can_edit": false,
+        "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+        "favorited": true,
+        "pic_ids": [],
+        "pic_num": 0,
+        "attitudes_count": 3,
+        "comments_count": 1,
+        "reposts_count": 0,
+        "isLongText": false,
+        "text": "示例微博 6",
+        "text_raw": "示例微博 6",
+        "region_name": "发布于 示例"
+      }
+    ],
+    "total_number": 5
+  }
+}

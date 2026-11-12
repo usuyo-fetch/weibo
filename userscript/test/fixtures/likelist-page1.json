@@ -1,0 +1,111 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content; the likelist shape (ok, data.list[]) follows the public 炸号微博备份 userscript (greasyfork 445022), the entries follow the all_fav entry shape; no account answer was captured.",
+  "ok": 1,
+  "data": {
+    "list": [
+      {
+        "visible": {
+          "type": 0,
+          "list_id": 0
+        },
+        "created_at": "Mon Nov 03 12:00:00 +0800 2025",
+        "id": 4900000000000011,
+        "idstr": "4900000000000011",
+        "mid": "4900000000000011",
+        "mblogid": "Lk1Ab2Cd1",
+        "user": {
+          "id": 1700000011,
+          "idstr": "1700000011",
+          "pc_new": 7,
+          "screen_name": "示例博主壬",
+          "profile_image_url": "https://example.invalid/avatar.jpg",
+          "verified": false,
+          "following": false
+        },
+        "can_edit": false,
+        "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+        "favorited": false,
+        "pic_ids": [],
+        "pic_num": 0,
+        "attitudes_count": 3,
+        "comments_count": 1,
+        "reposts_count": 0,
+        "isLongText": false,
+        "text": "示例赞 1",
+        "text_raw": "示例赞 1",
+        "region_name": "发布于 示例"
+      },
+      {
+        "visible": {
+          "type": 0,
+          "list_id": 0
+        },
+        "created_at": "Tue Nov 04 12:00:00 +0800 2025",
+        "id": 4900000000000012,
+        "idstr": "4900000000000012",
+        "mid": "4900000000000012",
+        "mblogid": "Lk1Ab2Cd2",
+        "user": {
+          "id": 1700000012,
+          "idstr": "1700000012",
+          "pc_new": 7,
+          "screen_name": "示例博主癸",
+          "profile_image_url": "https://example.invalid/avatar.jpg",
+          "verified": false,
+          "following": false
+        },
+        "can_edit": false,
+        "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+        "favorited": true,
+        "pic_ids": [],
+        "pic_num": 0,
+        "attitudes_count": 3,
+        "comments_count": 1,
+        "reposts_count": 0,
+        "isLongText": false,
+        "text": "示例赞 2<br />第二行",
+        "text_raw": "示例赞 2\n第二行",
+        "region_name": "发布于 示例",
+        "retweeted_status": {
+          "visible": {
+            "type": 0,
+            "list_id": 0
+          },
+          "created_at": "Mon Nov 03 11:00:00 +0800 2025",
+          "id": 4900000000000013,
+          "idstr": "4900000000000013",
+          "mid": "4900000000000013",
+          "mblogid": "Lk1Ab2Cd3",
+          "user": {
+            "id": 1700000013,
+            "idstr": "1700000013",
+            "pc_new": 7,
+            "screen_name": "示例博主子",
+            "profile_image_url": "https://example.invalid/avatar.jpg",
+            "verified": false,
+            "following": false
+          },
+          "can_edit": false,
+          "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+          "favorited": true,
+          "pic_ids": [],
+          "pic_num": 0,
+          "attitudes_count": 3,
+          "comments_count": 1,
+          "reposts_count": 0,
+          "isLongText": false,
+          "text": "被转的微博",
+          "text_raw": "被转的微博",
+          "region_name": "发布于 示例"
+        }
+      },
+      {
+        "id": 4900000000000014,
+        "idstr": "4900000000000014",
+        "deleted": "1",
+        "text": "此微博已被删除。"
+      }
+    ],
+    "total_number": 4
+  }
+}

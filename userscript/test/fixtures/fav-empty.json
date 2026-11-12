@@ -1,0 +1,8 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content in the shape of Chilfish/Weibo-archiver packages/core/src/types/raw/favorites/all_fav.ts (ok, data.status[], data.total_number); no account answer was captured.",
+  "ok": 1,
+  "data": {
+    "status": [],
+    "total_number": 5
+  }
+}

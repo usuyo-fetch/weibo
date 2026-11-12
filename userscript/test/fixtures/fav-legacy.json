@@ -1,0 +1,38 @@
+{
+  "_note": "NOT MEASURED: handwritten with invented content; the older shape where data is the array itself, as the 炸号微博备份 userscript (greasyfork 445022) reads it for favorites.",
+  "ok": 1,
+  "data": [
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 02 10:00:00 +0800 2025",
+      "id": 4900000000000007,
+      "idstr": "4900000000000007",
+      "mid": "4900000000000007",
+      "mblogid": "Qa1Bb2Cc7",
+      "user": {
+        "id": 1700000007,
+        "idstr": "1700000007",
+        "pc_new": 7,
+        "screen_name": "示例博主庚",
+        "profile_image_url": "https://example.invalid/avatar.jpg",
+        "verified": false,
+        "following": false
+      },
+      "can_edit": false,
+      "source": "<a href=\"x\" rel=\"nofollow\">示例客户端</a>",
+      "favorited": true,
+      "pic_ids": [],
+      "pic_num": 0,
+      "attitudes_count": 3,
+      "comments_count": 1,
+      "reposts_count": 0,
+      "isLongText": false,
+      "text": "示例微博 7",
+      "text_raw": "示例微博 7",
+      "region_name": "发布于 示例"
+    }
+  ]
+}
