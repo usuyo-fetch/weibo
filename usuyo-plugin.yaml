@@ -52,6 +52,7 @@ methods:
     login: required
     account: own-browser
     delivers: links
+    script: userscript/usuyo-weibo-saved.user.js
   - id: favorites
     name: 收藏（登录进 usuyo）
     built: false
