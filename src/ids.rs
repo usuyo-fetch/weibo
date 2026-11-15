@@ -5,7 +5,7 @@
 //! - `weibo.com/detail/<mid 或 mblogid>`
 //! - `m.weibo.cn/status/<id>`、`m.weibo.cn/detail/<id>`
 //!
-//! 身份是十进制的 `mid`，写法和 yt-dlp 插件（`usuyo-fetch/ytdlp` 的 `link.rs`）一样：
+//! 身份是十进制的 `mid`：
 //! 全是数字（最多 20 位）就当 `mid`、去掉前导 0；否则当 base62 的 `mblogid` 换算。
 //! 规范链接也一样：`https://m.weibo.cn/detail/<mid>`。
 
@@ -143,7 +143,7 @@ fn nonzero(digits: &str) -> Option<String> {
 mod tests {
     use super::*;
 
-    // 公开资料里常引的一对（和 yt-dlp 插件的测试同一对）
+    // 公开资料里常引的一对
     const BID: &str = "z0JH2lOMb";
     const MID: &str = "3501756485200075";
 
