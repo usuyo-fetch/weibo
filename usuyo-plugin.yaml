@@ -2,7 +2,7 @@
 # 几种方法各列一项（usuyo 协议 §2.3.1），没做的也列；行和 usuyo 仓库 docs/platforms/routes.md 第 9 节一一对应。
 # status 读公开的 ajax/statuses/show（对照 yt-dlp weibo.py、ParseHub weibo.py），要一份访客身份：
 # 访客身份不是账号，usuyo 开一次微博首页、不登录，存下页面自己生成的 cookie，经 USUYO_VISITOR 交过来；没交就回 visitor-required。
-# 全部只在本机的假服务器上测过，没有对着真的微博跑过。
+# 2026-11-16 用 usuyo 的访客窗口取的访客身份对着真的微博取过一条带视频的公开微博，文字和视频都取到；别的情形只在本机的假服务器上测过。
 protocol: 1
 id: usuyo-fetch/weibo
 kind: fetch
